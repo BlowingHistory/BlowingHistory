@@ -32,6 +32,284 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <style>
+    To add some required and attractive CSS to the provided HTML page, we can enhance the styling for various sections like the header, services, about, team, client testimonials, and footer. Here's a sample CSS code to make the page more appealing:
+
+```css
+/* Global Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+
+.header_section {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand span {
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav_search-btn {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Hero Area Styles */
+
+.hero_area {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero_bg_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.bg_img_box img {
+    width: 100%;
+    height: auto;
+}
+
+/* Service Section Styles */
+
+.service_section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.service_container {
+    text-align: center;
+}
+
+.service_container h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.service_container p {
+    color: #666;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.img-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.detail-box h5 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.detail-box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.detail-box a {
+    color: #333;
+    font-weight: 500;
+}
+
+.detail-box a:hover {
+    color: #ff6b6b;
+}
+
+/* About Section Styles */
+
+.about_section {
+    padding: 80px 0;
+}
+
+.about_section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.about_section p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.about_section .img-box {
+    margin-bottom: 30px;
+}
+
+.about_section .detail-box h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about_section .detail-box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about_section .detail-box a {
+    color: #333;
+    font-weight: 500;
+}
+
+.about_section .detail-box a:hover {
+    color: #ff6b6b;
+}
+
+/* Team Section Styles */
+
+.team_section {
+    padding: 80px 0;
+}
+
+.team_section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.team_container .box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.team_container .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.team_container .detail-box h5 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.team_container .detail-box p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.team_container .social_box a {
+    color: #333;
+    margin-right: 10px;
+}
+
+.team_container .social_box a:hover {
+    color: #ff6b6b;
+}
+
+/* Client Section Styles */
+
+.client_section {
+    background-color: #333;
+    padding: 80px 0;
+}
+
+.client_section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.client_section p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.carousel-wrap {
+    margin-top: 50px;
+}
+
+.client_owl-carousel .item {
+    text-align: center;
+}
+
+.client_owl-carousel .box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 0 15px;
+}
+
+.client_owl-carousel .box .detail-box h6 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.client_owl-carousel .box .detail-box p {
+    color: #666;
+}
+
+/* Footer Section Styles */
+
+.footer_section {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer_section a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer_section a:hover {
+    color: #ff6b6b;
+}
+  </style>
+
 </head>
 
 <body>
