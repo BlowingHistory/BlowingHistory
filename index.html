@@ -32,284 +32,6 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <style>
-    To add some required and attractive CSS to the provided HTML page, we can enhance the styling for various sections like the header, services, about, team, client testimonials, and footer. Here's a sample CSS code to make the page more appealing:
-
-```css
-/* Global Styles */
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Header Styles */
-
-.header_section {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-brand span {
-    color: #333;
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.navbar-nav .nav-link {
-    color: #333;
-    font-weight: 500;
-}
-
-.navbar-toggler {
-    border: none;
-}
-
-.nav_search-btn {
-    background-color: #333;
-    color: #fff;
-}
-
-/* Hero Area Styles */
-
-.hero_area {
-    position: relative;
-    overflow: hidden;
-}
-
-.hero_bg_box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
-
-.bg_img_box img {
-    width: 100%;
-    height: auto;
-}
-
-/* Service Section Styles */
-
-.service_section {
-    background-color: #f9f9f9;
-    padding: 80px 0;
-}
-
-.service_container {
-    text-align: center;
-}
-
-.service_container h2 {
-    margin-bottom: 30px;
-    font-size: 36px;
-    font-weight: 700;
-    color: #333;
-}
-
-.service_container p {
-    color: #666;
-}
-
-.box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-}
-
-.box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.img-box img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.detail-box h5 {
-    color: #333;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 15px;
-}
-
-.detail-box p {
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.detail-box a {
-    color: #333;
-    font-weight: 500;
-}
-
-.detail-box a:hover {
-    color: #ff6b6b;
-}
-
-/* About Section Styles */
-
-.about_section {
-    padding: 80px 0;
-}
-
-.about_section h2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #333;
-}
-
-.about_section p {
-    color: #666;
-    margin-bottom: 30px;
-}
-
-.about_section .img-box {
-    margin-bottom: 30px;
-}
-
-.about_section .detail-box h3 {
-    font-size: 30px;
-    font-weight: 700;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.about_section .detail-box p {
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.about_section .detail-box a {
-    color: #333;
-    font-weight: 500;
-}
-
-.about_section .detail-box a:hover {
-    color: #ff6b6b;
-}
-
-/* Team Section Styles */
-
-.team_section {
-    padding: 80px 0;
-}
-
-.team_section h2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #333;
-}
-
-.team_container .box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-}
-
-.team_container .box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.team_container .detail-box h5 {
-    color: #333;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.team_container .detail-box p {
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.team_container .social_box a {
-    color: #333;
-    margin-right: 10px;
-}
-
-.team_container .social_box a:hover {
-    color: #ff6b6b;
-}
-
-/* Client Section Styles */
-
-.client_section {
-    background-color: #333;
-    padding: 80px 0;
-}
-
-.client_section h2 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #fff;
-}
-
-.client_section p {
-    color: #fff;
-    margin-bottom: 30px;
-}
-
-.carousel-wrap {
-    margin-top: 50px;
-}
-
-.client_owl-carousel .item {
-    text-align: center;
-}
-
-.client_owl-carousel .box {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin: 0 15px;
-}
-
-.client_owl-carousel .box .detail-box h6 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #333;
-}
-
-.client_owl-carousel .box .detail-box p {
-    color: #666;
-}
-
-/* Footer Section Styles */
-
-.footer_section {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 0;
-    text-align: center;
-}
-
-.footer_section a {
-    color: #fff;
-    font-weight: 500;
-}
-
-.footer_section a:hover {
-    color: #ff6b6b;
-}
-  </style>
-
 </head>
 
 <body>
@@ -380,7 +102,7 @@ a {
             Our <span>Services</span>
           </h2>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+            We provide you the accurate information about History, News & Science and Recent News.
           </p>
         </div>
         <div class="row">
@@ -391,17 +113,20 @@ a {
               </div>
               <div class="detail-box">
                 <h5>
-                  Currency Wallet
+                  History
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Discover the past like never before with our comprehensive historical services. We delve into ancient civilizations, pivotal events, and influential figures, bringing history to life through engaging articles, detailed timelines, and interactive media.
+                  Whether you're a history buff or a curious learner, our content will enrich your understanding of the world's heritage.
                 </p>
-                <a href="">
+                <p id="moreHistory" style="display:none;">
+                  Our historical services cover a wide range of topics, including ancient Egypt, the Roman Empire, medieval Europe, the Renaissance, and modern history. We offer in-depth analyses, interactive timelines, and multimedia resources to make learning history both informative and enjoyable.
+                </p>
+                <a href="javascript:void(0);" onclick="toggleContent('moreHistory', this);">
                   Read More
                 </a>
               </div>
+              
             </div>
           </div>
           <div class="col-md-4 ">
@@ -411,17 +136,20 @@ a {
               </div>
               <div class="detail-box">
                 <h5>
-                  Security Storage
+                  News
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Stay informed with our up-to-the-minute news coverage. We provide reliable, unbiased reporting on local and global events, ensuring you are always in the know. From politics 
+                  and economy to culture and sports, our news service offers insightful analysis and in-depth stories that matter to you. And also you will get knowledge about recent events.
                 </p>
-                <a href="">
+                <p id="moreNews" style="display:none;">
+                  Our team of experienced journalists and analysts are dedicated to bringing you the most accurate and up-to-date information. We cover breaking news, provide live updates, and offer expert opinions on the latest developments. Stay connected and informed with our comprehensive news service.
+                </p>
+                <a href="javascript:void(0);" onclick="toggleContent('moreNews', this);">
                   Read More
                 </a>
               </div>
+              
             </div>
           </div>
           <div class="col-md-4 ">
@@ -431,17 +159,20 @@ a {
               </div>
               <div class="detail-box">
                 <h5>
-                  Expert Support
+                  Science and Technology
                 </h5>
                 <p>
-                  fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                  The
-                  point of using
+                  Explore the cutting-edge world of science and technology with us. Our service keeps you updated on the latest innovations, breakthroughs, and trends. We cover a wide range of topics, including space exploration, medical advancements, 
+                  environmental science, and technological gadgets, making complex concepts accessible and exciting for everyone.
                 </p>
-                <a href="">
+                <p id="moreScienceTech" style="display:none;">
+                  Dive deeper into the fascinating realms of artificial intelligence, robotics, and quantum computing. Our expert analyses and in-depth articles make it easy to stay informed about the technologies shaping our future. Whether you're a tech enthusiast or a curious reader, our content provides valuable insights and keeps you ahead of the curve.
+                </p>
+                <a href="javascript:void(0);" onclick="toggleContent('moreScienceTech', this);">
                   Read More
                 </a>
               </div>
+              
             </div>
           </div>
         </div>
@@ -481,19 +212,25 @@ a {
               We Are Blowing History
             </h3>
             <p>
-              Welcome to Blowing History, your ultimate destination for exploring the rich tapestry of human history
-               across all eras. Our website is dedicated to providing comprehensive knowledge and insights into the 
-               fascinating events, cultures, and individuals that have shaped our world. Whether you're a casual enthusiast
-                or a seasoned historian, join us on a journey through time to uncover the captivating stories and lessons
-                 from the past.
+              Welcome to Blowing History, your premier destination for delving into the captivating realms of history, news, and science and technology. 
+              At Blowing History, we are passionate about unraveling the past, staying abreast of current affairs, and exploring the cutting-edge 
+              advancements shaping our future.
             </p>
             <p>
-              Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.
+              Our platform is designed to ignite your curiosity and deepen your understanding through expertly curated content. 
+              Whether you're exploring ancient civilizations, staying informed with unbiased news coverage, or marveling at the 
+              latest scientific breakthroughs, Blowing History offers a rich tapestry of articles, timelines, and interactive features.
             </p>
-            <a href="">
-              Read More
-            </a>
+            <p id="aboutUsRead" style="display: none;">
+              Join us as we embark on a journey to uncover the stories that shape our world, celebrating the past, 
+              interpreting the present, and envisioning the future. Blowing History is your trusted companion in discovering 
+              the wonders of human achievement and the mysteries of our universe.
+            </p>
+          
+            <a href="javascript:void(0);" onclick="toggleContent('aboutUsRead', this);">Read More</a>
           </div>
+          
+          
         </div>
       </div>
     </div>
@@ -507,7 +244,7 @@ a {
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Why Choose <span>Us</span>
+          His<span>tory</span>
         </h2>
       </div>
       <div class="why_container">
@@ -955,6 +692,56 @@ a {
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+  <script>
+    function toggleContent(id, element) {
+      var content = document.getElementById(id);
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        element.innerHTML = "Read Less";
+      } else {
+        content.style.display = "none";
+        element.innerHTML = "Read More";
+      }
+    }
+
+
+    function toggleContent(id, element) {
+      var content = document.getElementById(id);
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        element.innerHTML = "Read Less";
+      } else {
+        content.style.display = "none";
+        element.innerHTML = "Read More";
+      }
+    }
+
+    
+      function toggleContent(id, element) {
+        var content = document.getElementById(id);
+        if (content.style.display === "none") {
+          content.style.display = "block";
+          element.innerHTML = "Read Less";
+        } else {
+          content.style.display = "none";
+          element.innerHTML = "Read More";
+        }
+      }
+
+      function toggleContent(id, link) {
+        const content = document.getElementById(id);
+      
+        if (content.style.display === 'none') {
+          content.style.display = 'block';
+          link.textContent = 'Read Less';
+        } else {
+          content.style.display = 'none';
+          link.textContent = 'Read More';
+        }
+      }
+      
+    
+  </script>
 
 </body>
 
